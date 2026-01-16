@@ -7,7 +7,8 @@
 
 /* section_1 */
 .section_1 {
-    width: 1700px;
+    max-width: 1920px;
+    width: 100%;
     height: 922px;
     margin: 0 auto;
     display: flex;
@@ -241,11 +242,16 @@
 /* section_2 */
 
 .section_2 {
+    max-width: 1920px;
+    height: 1040px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
     margin-top: 76px;
     padding-left: 50px;
+    margin: 0 auto;
+
 }
 
 .box_4 {
@@ -395,8 +401,10 @@
 
 /* section_3 */
 .section_3 {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 1214px;
+    margin: 0 auto;
     background-color: #FFF9F5;
     position: relative;
 }
