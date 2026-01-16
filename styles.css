@@ -67,6 +67,7 @@
     color: #FFFFFF;
     font-weight: 700;
     letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
 }
 
 .box_2 {
@@ -77,16 +78,17 @@
 }
 
 .box_2_text_1 {
-    width: 340px;
+    width: 369px;
     font-size: 31px;
     color: #1E1E1E;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     letter-spacing: -1px;
     line-height: 120%;
     padding-top: 45px;
     margin: 0 auto;
     letter-spacing: -1px;
+    font-family: "Poppins", sans-serif;
 }
 
 .box_2_container {
@@ -120,6 +122,7 @@
     padding-top: 10px;
     text-align: center;
     margin: 0 auto;
+    font-family: "Poppins", sans-serif;
 }
 
 .box_3 {
@@ -207,6 +210,7 @@
         font-size: 22px;
         font-weight: 600;
         padding-top: 20px;
+        font-family: "Be Vietnam Pro", sans-serif;
     }
 
     .box_2_container {
@@ -231,11 +235,13 @@
         text-align: left;
         padding: 0;
         padding-left: 10px;
+        font-family: "Be Vietnam Pro", sans-serif;
     }
 
     .box_3_button {
         background-color: #0F61FF;
         margin-top: 31px;
+        font-family: "Be Vietnam Pro", sans-serif;
     }
 }
 
@@ -262,6 +268,7 @@
 
 .box_4_title_1 {
     font-size: 16px;
+    font-family: "Inter", sans-serif;
     color: #402C22;
     font-weight: 500;
     margin-bottom: 20px;
@@ -272,6 +279,7 @@
     color: #402C22;
     font-weight: 400;
     margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
 }
 
 .box_4_container {
@@ -312,6 +320,7 @@
     font-weight: 300;
     line-height: 23px;
     margin-bottom: 15px;
+    font-family: "Inter", sans-serif;
 }
 
 .box_5 {
@@ -359,7 +368,7 @@
     }
 
     .box_4_title_2 {
-        font-size: 30px;
+        font-size: 33px;
         width: 100%;
         order: 2;
         margin-bottom: 0px;
@@ -412,11 +421,11 @@
 .section_3_title {
     display: flex;
     align-items: center;
-    /* gap: 12px; */
     font-size: 18px;
+    font-family: "Instrument Serif", serif;
     color: #462B20;
     font-style: italic;
-    opacity: 85%;
+    font-weight: 400;
     padding-top: 32px;
 }
 
@@ -439,7 +448,7 @@
 
 .box_7 {
     width: 622px;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 .box_7_title {
@@ -449,6 +458,7 @@
     line-height: 61px;
     text-align: center;
     margin-top: -12px;
+    font-family: "Instrument Serif", serif;
 }
 
 .box_7_tab {
@@ -459,14 +469,16 @@
 
 .box_7_tab_item {
     color: #462B20;
-    font-size: 15px;
+    font-size: 20px;
     border-right: 1px solid #462b2056;
-    padding: 5px 16px;
-    opacity: 0.6;
+    padding: 5px 12px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    opacity: 0.4;
 }
 
 .box_7_tab_item:first-child {
-    font-weight: 600;
+    font-weight: 400;
     opacity: 1;
 }
 
@@ -476,12 +488,14 @@
 }
 
 .box_7_content {
-    font-size: 17px;
+    font-size: 16px;
     color: #462B20;
-    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
     line-height: 28px;
     text-align: center;
-    padding: 20px 0px 68px 0px;
+    padding: 20px 0px 60px 0px;
+    opacity: 0.85;
 }
 
 .box_7_line {
@@ -565,9 +579,12 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
+        width: 348px;
     }
 
     .box_7_tab_item {
         flex: 0 0 auto;
+        font-size: 16px;
+        padding: 5px 3px;
     }
 }
