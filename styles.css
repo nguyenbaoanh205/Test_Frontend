@@ -425,7 +425,6 @@
 
 /* section_3 */
 .section_3 {
-    max-width: 1920px;
     width: 100%;
     height: 1214px;
     margin: 0 auto;
@@ -523,7 +522,7 @@
 .box_7_image1 {
     position: absolute;
     top: 210px;
-    left: 113px;
+    left: 5%;
     width: 183px;
     height: 257px;
 }
@@ -531,7 +530,7 @@
 .box_7_image2 {
     position: absolute;
     top: 646px;
-    left: 169px;
+    left: 8%;
     width: 253px;
     height: 363px;
 }
@@ -539,7 +538,7 @@
 .box_7_image3 {
     position: absolute;
     top: 168px;
-    left: 1550px;
+    right: 5%;
     width: 274px;
     height: 385px;
 }
@@ -547,7 +546,7 @@
 .box_7_image4 {
     position: absolute;
     top: 710px;
-    left: 1495px;
+    right: 12%;
     width: 183px;
     height: 257px;
 }
