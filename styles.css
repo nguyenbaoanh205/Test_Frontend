@@ -5,6 +5,20 @@
     /* font-family: 'Poppins', sans-serif; */
 }
 
+@font-face {
+    font-family: 'Optima';
+    src: url('./fonts/OPTIMA.TTF') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OptimaNovaLTProRegular';
+    src: url('./fonts/OptimaNovaLTProRegular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* section_1 */
 .section_1 {
     max-width: 1920px;
@@ -279,7 +293,7 @@
     color: #402C22;
     font-weight: 400;
     margin-bottom: 20px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Optima', 'Inter', sans-serif;
 }
 
 .box_4_container {
@@ -301,6 +315,7 @@
     font-size: 22px;
     color: #402C22;
     font-weight: 400;
+    font-family: 'OptimaNovaLTProRegular', 'Inter', sans-serif;
 }
 
 .dropdown_icon {
